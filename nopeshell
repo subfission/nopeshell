@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# NOPESHELL
+# Your friendly shell to thrwart invaders.
+#
+# Author: subfission
+#
+# Instructions
+# --------------
+# 1. Add this to /usr/bin/nopeshell or 
+#    simlar path as root.
+# 2. chmod a+x this file.
+# 3. Add this file to /etc/shells so
+#    it is official!
+# 4. Set users to login with this shell.
+# 5. Profit! Or maybe just don't get
+#    hacked..?
+
+echo "
+#========================================#
+#             * RESTRICTED *             #
+#========================================#
+This account is not allowed shell access.
+    This incident has been reported!
+#========================================#
+"
+exit
