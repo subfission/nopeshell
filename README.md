@@ -11,7 +11,7 @@ This simple shell will prematurely end SSH connections.
 5. Profit! Or maybe just don't get hacked..?
 
 ### Bash One-Liner
-sudo curl -L "https://raw.githubusercontent.com/subfission/nopeshell/master/nopeshell" > /usr/bin/nopeshell && sudo chmod a+x /usr/bin/nopeshell && echo '/usr/bin/nopeshell' >> /ets/shells && echo "done."
+    sudo curl -L "https://raw.githubusercontent.com/subfission/nopeshell/master/nopeshell" > /usr/bin/nopeshell && sudo chmod a+x /usr/bin/nopeshell && echo '/usr/bin/nopeshell' >> /ets/shells && echo "done."
 
 ### Supported Platforms
 - MacOS 10.8+
